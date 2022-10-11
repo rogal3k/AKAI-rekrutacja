@@ -1,0 +1,74 @@
+body {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	background: linear-gradient(129deg, #360033, #0b8793);
+	background-attachment: fixed;
+}
+#task-frontend {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #bccad6;
+	box-shadow: 2px 2px 15px black;
+	border-radius: 35px;
+	min-width: 33%;
+	max-width: 850px;
+	text-align: center;
+	justify-content: center;
+	display: grid;
+}
+#task-frontend .basic-title {
+	color: red;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#task-frontend form label {
+	text-transform: uppercase;
+}
+#task-frontend input[type="text"],
+#task-frontend input[type="email"] {
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	background-color: azure;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 1px 1px 2px 2px gray inset;
+	text-align: center;
+	font-size: 15px;
+	width: 250px;
+	height: 30px;
+}
+#sekcja {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#task-frontend input[type="checkbox"] {
+	text-transform: none;
+}
+#task-frontend input[type="checkbox"]:hover {
+	transform: translateY(-2px);
+	cursor: pointer;
+}
+#task-frontend input[type="submit"] {
+	display: block;
+	color: white;
+	box-shadow: 1px 2px 2px 2px gray;
+	font-size: 15px;
+	letter-spacing: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 100px;
+	height: 30px;
+	margin-bottom: 60px;
+	border-radius: 30px;
+	border: none;
+	background-color: blueviolet;
+}
+#task-frontend input[type="submit"]:hover {
+	transform: translateY(3px);
+	cursor: pointer;
+	box-shadow: 1px -1px 1px -1px gray;
+}
